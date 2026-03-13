@@ -1,16 +1,27 @@
-# truegift
+# 🎁 True Gift — Умный трекер подарков и событий
 
-A new Flutter project.
+**True Gift** — это современное мобильное приложение на Flutter, созданное для того, чтобы навсегда забыть о проблеме "Что подарить?". Приложение помогает структурировать информацию о близких людях, их предпочтениях, размерах одежды и важных датах, а встроенный искусственный интеллект генерирует креативные идеи подарков.
 
-## Getting Started
+## ✨ Ключевые возможности
 
-This project is a starting point for a Flutter application.
+* 🧠 **AI-Генератор подарков:** Интеграция с Google Gemini API. Нейросеть анализирует интересы, возраст и аллергии человека, чтобы предложить 5 уникальных идей для подарка за пару секунд.
+* 📅 **Умный календарь:** Автоматический расчет дней до ближайшего праздника. События всех друзей собираются в единую ленту и сортируются от ближайшего к дальнему.
+* 💾 **Локальная база данных:** Быстрая и безопасная работа без интернета благодаря NoSQL базе данных `Hive`. Все данные хранятся исключительно на устройстве пользователя.
+* 🌗 **Темная и светлая темы:** Полная поддержка системной темы устройства с кастомными цветовыми схемами для комфортного использования ночью.
+* 🎨 **Современный UI/UX:** Плавные анимации (Hero), отсутствие грубых рамок (borderless design), карточный интерфейс и интуитивно понятная навигация (Bottom Navigation Bar).
+* 📏 **Детализированные профили:** Хранение размеров обуви, одежды, колец, а также списков того, что человек любит и категорически не переносит (аллергии).
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠 Технологический стек
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* **Фреймворк:** Flutter (Dart)
+* **Архитектура:** MVC / Паттерн Singleton для работы с БД
+* **База данных:** Hive (`hive`, `hive_flutter`) — легковесное key-value хранилище
+* **Искусственный интеллект:** `google_generative_ai` (модель: gemini-2.5-flash)
+* **Работа с датами:** `intl` (форматирование и парсинг)
+* **Генерация иконок:** `flutter_launcher_icons`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Установка и запуск
+
+1. **Клонируйте репозиторий:**
+   ```bash
+   git clone [https://github.com/ВАШ_НИК/truegift.git](https://github.com/ВАШ_НИК/truegift.git)
