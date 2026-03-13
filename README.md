@@ -20,6 +20,8 @@
 * **Работа с датами:** `intl` (форматирование и парсинг)
 * **Генерация иконок:** `flutter_launcher_icons`
 
+##
+
 <p align="center">
   <img src="assets/icon.png" width="500" alt="True Gift Icon">
 </p>
