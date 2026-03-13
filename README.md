@@ -19,9 +19,3 @@
 * **Искусственный интеллект:** `google_generative_ai` (модель: gemini-2.5-flash)
 * **Работа с датами:** `intl` (форматирование и парсинг)
 * **Генерация иконок:** `flutter_launcher_icons`
-
-## 🚀 Установка и запуск
-
-1. **Клонируйте репозиторий:**
-   ```bash
-   git clone [https://github.com/ВАШ_НИК/truegift.git](https://github.com/ВАШ_НИК/truegift.git)
