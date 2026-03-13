@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/icon.png" width="150" alt="True Gift Icon">
+  <img src="assets/icon.png" width="500" alt="True Gift Icon">
 </p>
 
 # 🎁 True Gift — Умный трекер подарков и событий
