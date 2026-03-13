@@ -1,0 +1,35 @@
+name: true_gift
+description: "Менеджер размеров и идей для подарков."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  image_picker: ^1.1.2
+  url_launcher: ^6.3.0
+  share_plus: ^12.0.1
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+  google_generative_ai: ^0.4.5
+
+flutter:
+  uses-material-design: true
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon.png"
+  min_sdk_android: 21
